@@ -1,0 +1,19 @@
+#ifndef __CONDITION_H 
+#define __CONDITION_H
+#include <pthread.h>
+#include "MutexLock.h"
+#include <unistd.h>
+#include <memory>
+class Condition{
+public:
+    Condition();
+    ~Condition();
+    void wait();
+    void signal();
+
+private:
+    pthread_cond_t _cond;
+    MutexLock & _mutex;
+};
+#endif
+

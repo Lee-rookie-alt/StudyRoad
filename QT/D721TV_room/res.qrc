@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>silentvolume.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>play.png</file>
+        <file>ing.png</file>
+        <file>highvolume.png</file>
+        <file>volume.png</file>
+        <file>fullScreen.png</file>
+        <file>nofullScreen.png</file>
+        <file>next.png</file>
+        <file>last.png</file>
+    </qresource>
+</RCC>
